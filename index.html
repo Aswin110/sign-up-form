@@ -8,58 +8,75 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div class="form-image">
+      <img src="public/image.jpg" alt="man-reaches-high-and-takes-a-shot-with-a-basketball">
+  </div>
 
-    <form action="#" class="form">
-      <div class="field">
-        <label for="name">Name</label>
-        <div class="control">
-          <input  type="text" id="name" placeholder="Text input" required>
+    <div class="form-image">
+      <form action="#" class="form">
+        <div class="field">
+          <label for="name">Name</label>
+          <div>
+            <input  type="text" id="name" placeholder="Text input" required>
+          </div>
         </div>
-      </div>
       
-      <div class="field">
-        <label for="username">Username</label>
-        <div >
-          <input type="text" id="username" placeholder="Text input" required >
+        <div class="field">
+          <label for="username">Username</label>
+          <div >
+            <input  type="text" id="username" placeholder="Text input" required >
+          </div>
         </div>
-      </div>
-      
-      <div class="field">
-        <label for="email">Email</label>
-        <div >
-          <input  type="email" id="email" placeholder="Email input" required>
+
+        <div class="field">
+          <label for="pasword">Password</label>
+          <div>
+            <input type="password" id="name" placeholder="password" required>
+          </div>
         </div>
-      </div>
       
-      <div class="field">
-        <label class="label">Subject</label>
-        <div class="control">
-            <select>
-              <option>Select dropdown</option>
-              <option>With options</option>
-            </select>
+        <div class="field">
+          <label for="confirmpassword">Confirm Password</label>
+          <div >
+            <input  type="password" id="confirmpassword" placeholder="confirm password" required >
+          </div>
         </div>
-      </div>
       
-      <div class="field">
-        <label class="label">Message</label>
-        <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+        <div class="field">
+          <label for="email">Email</label>
+          <div >
+            <input  type="email" id="email" placeholder="Email input" required>
+          </div>
         </div>
-      </div>
       
-      <div class="field">
-        <div class="control">
-          <label class="checkbox">
-            <input type="checkbox">
-            I agree to the terms and conditions
-          </label>
+        <div class="field">
+          <label class="label">Country</label>
+          <div class="control">
+              <select>
+                <option>India</option>
+                <option>China</option>
+              </select>
+          </div>
         </div>
-      </div>
       
-      <div class="field">
-        <div class="control">
-          Would you like to continue:
+        <!-- <div class="field">
+          <label for="textarea">Message</label>
+          <div class="control">
+            <textarea placeholder="Textarea" id="textarea"></textarea>
+          </div>
+        </div> -->
+      
+        <div class="field">
+          <div class="control">
+            <label for="checkbox">
+              <input type="checkbox" id="checkbox">
+              <span id="checkboxtext">I agree to the terms and conditions</span>
+            </label>
+          </div>
+        </div>
+      
+        <div class="field">
+            Would you like to continue:
           <label class="radio">
             <input type="radio" name="question">
             Yes
@@ -69,17 +86,15 @@
             No
           </label>
         </div>
-      </div>
       
-      <div>
-        <div class="control">
-          <button type="submit">Submit</button>
+        <div>
+          <div class="control">
+            <button type="submit">Submit</button>
+            <button type="reset">reset</button>
+          </div>
         </div>
-        <div class="control">
-          <button type="reset">reset</button>
-        </div>
-      </div>
-    </form>
-
+      </form>
+    </div >
+    
   </body>
 </html>

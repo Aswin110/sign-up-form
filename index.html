@@ -8,6 +8,78 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    
+
+    <form action="#" class="form">
+      <div class="field">
+        <label for="name">Name</label>
+        <div class="control">
+          <input  type="text" id="name" placeholder="Text input" required>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label for="username">Username</label>
+        <div >
+          <input type="text" id="username" placeholder="Text input" required >
+        </div>
+      </div>
+      
+      <div class="field">
+        <label for="email">Email</label>
+        <div >
+          <input  type="email" id="email" placeholder="Email input" required>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+            <select>
+              <option>Select dropdown</option>
+              <option>With options</option>
+            </select>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label class="label">Message</label>
+        <div class="control">
+          <textarea class="textarea" placeholder="Textarea"></textarea>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          <label class="checkbox">
+            <input type="checkbox">
+            I agree to the terms and conditions
+          </label>
+        </div>
+      </div>
+      
+      <div class="field">
+        <div class="control">
+          Would you like to continue:
+          <label class="radio">
+            <input type="radio" name="question">
+            Yes
+          </label>
+          <label class="radio">
+            <input type="radio" name="question">
+            No
+          </label>
+        </div>
+      </div>
+      
+      <div>
+        <div class="control">
+          <button type="submit">Submit</button>
+        </div>
+        <div class="control">
+          <button type="reset">reset</button>
+        </div>
+      </div>
+    </form>
+
   </body>
 </html>
